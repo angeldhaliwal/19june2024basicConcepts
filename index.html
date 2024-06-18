@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #parent{
+                width: 400px;
+                height: 400px;
+                background-color: green;
+                display: inline-block;
+                position: relative;
+                margin:100px 400px;   
+                border-radius: 50px; 
+                
+                box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.5);           
+            }
+            #a{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                background-color: red;
+                border-top-left-radius: 200px;
+                font-size: 3rem;
+                color:#fff;
+                position: absolute;
+                top:0px;
+                left:0px;
+                border-bottom-right-radius: 200px;
+                box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.5);           
+                text-align: center;  
+            }
+            #b{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                bottom:0px;
+                left:0px;
+                line-height: 200px;
+                background-color: orchid;
+                border-top-right-radius: 200px;
+                font-size: 3rem;
+                box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.5);           
+
+                color:#fff;
+                border-bottom-left-radius: 200px;
+                text-align: center;  
+            }
+            #c{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                background-color: blue;
+                border-top-right-radius: 200px;
+                box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.5);           
+
+                font-size: 3rem;
+                color:#fff;
+                position: absolute;
+                top:0px;
+                right:0px;
+                border-bottom-left-radius: 200px;
+                text-align: center; 
+                box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.5);           
+
+            }
+            #d{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                background-color: purple;
+                border-top-left-radius: 200px;
+                font-size: 3rem;
+                position: absolute;
+                box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.5);          
+
+                bottom:0px;
+                right:0px;
+                color:#fff;
+                border-bottom-right-radius: 200px;
+                text-align: center;            
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            
+        <div id="a">A</div>
+        <div id="b">B</div>
+        <div id="c">C</div>
+        <div id="d">D</div>
+        </div>
+    </body>
+</html>
