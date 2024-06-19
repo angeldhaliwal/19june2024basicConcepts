@@ -1,0 +1,2 @@
+# 19june2024basicConcepts
+19june2024basicConcepts
